@@ -1,0 +1,34 @@
+.a{
+    border-radius: 60%; 
+}
+.a:hover {
+    transform: scale(1.05) rotate(3deg); /* Scale and rotate on hover */
+    background: rgba(0, 255, 255, 0.8); /* Cyan background */
+    box-shadow: 0 8px 28px rgba(0, 255, 255, 0.766); /* Cyan shadow */
+    color: #fff; /* Change text color to white */
+    border: 2px solid rgba(0, 255, 255, 0.8); /* Cyan border on hover */
+    letter-spacing: 1px; /* Add letter spacing for text effect */
+}
+.b{
+    background-image: url("https://img.freepik.com/premium-photo/full-shot-travel-concept-with-landmarks_1174912-5143.jpg");
+    background-size:cover;
+}
+.c{
+    font-weight: bold !important;
+}
+.d{
+    font-family: bree serif;
+}
+.m{
+    background: black !important;
+}
+.menu-item:hover{
+    box-shadow: 0 10px 10px cyan;
+}
+
+.blur{
+    height:100vh;
+    background-color: #00131a77;
+    padding:50px;
+    border-radius: 20px;
+}
